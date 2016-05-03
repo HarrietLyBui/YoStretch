@@ -1,0 +1,64 @@
+* Name: Ly (Harriet) Bui
+* Final Project: YoStretch
+
+DESCRIPTION
+
+- LinkedList.java contains a LinkedList<T> class, which is:
+		 * linked list that contains linked list nodes
+		 * contains a head node
+		 * allow modification of the list by inserting after, inserting first, inserting last,
+		 * deleting first, deleting last and deleting after a certain nodes
+		 * allow access to the first node of the list
+		 * display the list in a String type
+
+ - LinkedListNode.java contains a LinkedListNode class, which:
+		 * is a LinkedListNode is a node that contains data of generic type, a linked list node that is the next node
+		 * allows for setting the data, get data, set next node, get next node and display the data of the node
+
+- YoStretchGUI.java:
+
+
+ * YogaStretchGUI create and organize beginning, intermediate, and advanced yoga level buttons,
+ * create timer, select randoms 4 yoga poses and display them,
+ * create buttons to display yoga name and image, display yoga instruction text and image if one of these buttons are clicked
+
+
+- YoStretchApplication.java:
+
+ * YogaStretchApplication creates JFrame to display and start the program
+
+
+- YoStretchController.java:
+
+
+* YoStretchController reads in 3 CSV files of three different yoga level.
+* Each file contains yoga name, instruction and image path.
+* YoStretchController creates three linked lists for yogaPose objects, nsert information from csv file into yogaPose object
+
+
+- YogaPose.java:
+
+  YogaPose objects allow access and manipulation of yoga Name, corresponding instruction and image path
+
+- opencsv-3.7.jar: package to read csv file
+
+- YogaDataAdvanced.csv
+- YogaDataBeginning.csv
+- YogaDataIntermediate.csv
+
+INSTRUCTION
+
+To run the project from command line
+Compile the java file:
+	cd Users\UserName\……\FinalProject\src
+	javac *.java
+	java YoStretchApplciation.java
+
+ATTRIBUTION
+
+Images, yoga name and instruction is retrieved from
+http://www.yogajournal.com/
+
+Some images are from
+theyogicprescription.com
+

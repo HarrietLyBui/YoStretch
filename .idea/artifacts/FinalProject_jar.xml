@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="FinalProject:jar">
+    <output-path>$PROJECT_DIR$</output-path>
+    <root id="archive" name="FinalProject.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="FinalProject" />
+      <element id="extracted-dir" path="$KOTLIN_BUNDLED$/lib/kotlin-runtime.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$KOTLIN_BUNDLED$/lib/kotlin-reflect.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/JMF-2.1.1e/lib/mediaplayer.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/JMF-2.1.1e/lib/customizer.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/JMF-2.1.1e/lib/jmf.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/opencsv-3.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/JMF-2.1.1e/lib/multiplayer.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
