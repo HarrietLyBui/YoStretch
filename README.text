@@ -42,6 +42,8 @@ DESCRIPTION
 
 - opencsv-3.7.jar: package to read csv file
 
+DATABASE: Each file contains yoga name, description, and path to relevant image
+
 - YogaDataAdvanced.csv
 - YogaDataBeginning.csv
 - YogaDataIntermediate.csv
